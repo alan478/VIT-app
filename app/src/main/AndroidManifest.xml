@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WomensHostel"></activity>
+        <activity android:name=".newevents"></activity>
+        <activity android:name=".firebase" />
+        <activity android:name=".Signup" />
+        <activity android:name=".events" />
+        <activity android:name=".WomensHostel" />
         <activity android:name=".MensHostel" />
         <activity android:name=".acadmeicblocks" />
         <activity android:name=".MainActivity">

@@ -10,6 +10,8 @@ public class MainActivity extends AppCompatActivity {
     Button ab;
     Button mh;
     Button gh;
+    Button event;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         ab=findViewById(R.id.ab);
         mh=findViewById(R.id.mh);
         gh=findViewById(R.id.gh);
+        event=findViewById(R.id.event);
         ab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,5 +48,15 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        event.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent;
+                intent = new Intent(MainActivity.this,com.example.vittouristguide.events.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 }

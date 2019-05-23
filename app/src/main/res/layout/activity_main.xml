@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@drawable/vit"
     tools:context=".MainActivity">
 
 
@@ -40,4 +39,13 @@
         android:layout_marginBottom="20dp"
         android:background="#ffffff"
         android:text="@string/womens_hostel" />
+
+    <Button
+        android:id="@+id/event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#ffffff"
+        android:text="@string/event" />
 </LinearLayout>
